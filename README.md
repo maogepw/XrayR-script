@@ -28,7 +28,7 @@ curl -L "https://github.com/docker/compose/releases/download/1.26.1/docker-compo
 chmod +x /usr/local/bin/docker-compose
 ```
 
-1. `git clone https://github.com/Miku-Miku-Miku-Miku/XrayR-script`
+1. `git clone https://github.com/maogepw/XrayR-script`
 2. `cd XrayR-script`
 3. 编辑config。
 配置文件基本格式如下，Nodes下可以同时添加多个面板，多个节点配置信息，只需添加相同格式的Nodes item即可。
