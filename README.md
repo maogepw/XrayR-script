@@ -18,7 +18,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/maogepw/XrayR-script/master/in
 # Docker 安装
 
 ```
-docker pull maogepw/xrayr:latest && docker run --restart=always --name xrayr -d -v ${PATH_TO_CONFIG}/config.yml:/etc/XrayR/config.yml --network=host mikumiku1/xrayr:latest
+docker pull maogepw/xrayr:latest && docker run --restart=always --name xrayr -d -v ${PATH_TO_CONFIG}/config.yml:/etc/XrayR/config.yml --network=host maogepw/xrayr:latest
 ```
 # Docker compose 安装(推荐)
 0. 安装docker-compose: 
